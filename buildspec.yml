@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - aws deploy push --application-name XXX --s3-location s3://XXX/artifact.zip --source src
+      - aws deploy push --application-name my-CodeDeploy --s3-location s3://s3-bucket-791935939884/artifact.zip --source src
 artifacts:
   files:
     - '**/*'
