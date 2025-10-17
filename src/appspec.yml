@@ -1,4 +1,4 @@
-version: 0.0
+giversion: 0.0
 os: linux
 files:
   - source: index.html
